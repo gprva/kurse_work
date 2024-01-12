@@ -349,10 +349,6 @@ margin-bottom: 23px;
   }
 
 
-
-
-
-/* Общие стили */
 *, *:after, *:before { 
 	box-sizing: border-box; 
 }
@@ -475,4 +471,8 @@ figure.effect-text-three:hover p {
 	opacity: 1;
 	-webkit-transform: translate3d(0,0,0);
 	transform: translate3d(0,0,0);
+}
+.cook{
+	display: flex;
+	/* flex-wrap: wrap; */
 }
