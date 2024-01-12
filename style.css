@@ -126,18 +126,50 @@ cursor: pointer; */
 
 }
 .head{
+	padding-top: 50px;
 	display: flex;
+	flex-wrap: wrap;
 	justify-content: space-around;
 }
 .header{
-	/* background: url(img/header.jpg); */
+	background: url(img/header.jpg);
 }
 .head_navs{
 	margin-left: 268px;
+	padding-top: 23px;
+}
+.head_phon{
+	padding-top: 7px;
 }
 .head_nav{
 	display: flex;
 }
 .head_a{
-	
+	color: #ffffff;
+	font-family: "Open Sans";
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	text-decoration: none;
+	margin-right: 25px;
+	transition: 0.5s;	
+}
+.phon_p{
+	color: white;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+width: 144px;
+}
+.phon_num{
+	color: #ffffff;
+font-family: Open Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-decoration: none;
+transition: 0.8s;
 }
