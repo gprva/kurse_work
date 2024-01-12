@@ -86,6 +86,12 @@ section {
   line-height: normal;
   padding-left: 30px;
 }
+.sec_tit__restoran{
+margin-bottom: 20px;
+width: 601px;
+height: 120px;
+padding-left: 0;
+}
 .sec_tit__head {
   font-size: 80px;
   padding-left: 0;
