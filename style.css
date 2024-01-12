@@ -119,7 +119,6 @@ section {
 .flex {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
 }
 .btn {
   border: 1px solid #ff7400;
@@ -188,3 +187,32 @@ section {
 .welcome_txt {
   padding: 199px 100px;
 }
+.cards{
+	display: flex;
+	text-align: center;
+}
+.card{
+	transition: all 0.5s ease 0s;
+	margin-right: 32px;
+	background: #fff;
+	margin-top: -166px;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	align-items: center;
+	padding: 48px 20px 30px 20px;
+width: 400px;
+}
+.cards_tit{
+	color: #2c2c2c;
+font-family: Tinos;
+font-size: 26px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-align: center;
+}
+.cards_tits{
+	color: #bc9060;
+}
+.
