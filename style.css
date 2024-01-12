@@ -594,3 +594,23 @@ figure.effect-text-two:hover p {
 	-webkit-transform: translate3d(0,0,0);
 	transform: translate3d(0,0,0);
 }
+
+.gallery_block {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin-top: -66px;
+  }
+  .gallery_left {
+	margin-right: 20px;
+  }
+  .galery_down {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 20px;
+  }
+  .galery_up {
+	display: flex;
+	flex-wrap: wrap;
+	margin-bottom: 20px;
+  }
