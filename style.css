@@ -99,6 +99,9 @@ section {
   font-size: 18px;
   font-weight: 400;
 }
+.welcom_btn{
+	padding-left: 181px;
+}
 .dib {
   display: inline-block;
 }
