@@ -249,3 +249,21 @@ font-size: 16px;
 font-weight: 400;
 width: 444px;
 }
+.history_h3{
+	color: #bc9060;
+text-align: center;
+font-size: 40px;
+font-weight: 400;
+line-height: normal;
+}
+.hidtory_card_txt{
+	color: #000;
+text-align: center;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.history_cards{
+	display: flex;
+}
