@@ -79,7 +79,6 @@ section {
   padding: 100px 0;
 }
 .sec_tit {
-  /* width: 440px; */
   color: #d67e35;
   font-family: Tinos;
   font-size: 50px;
@@ -145,7 +144,7 @@ section {
   justify-content: space-around;
 }
 .header {
-  background: url(img/header.jpg);
+  background: url(img/header.jpg) no-repeat;
 }
 .head_navs {
   margin-left: 268px;
