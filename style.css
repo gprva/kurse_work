@@ -302,3 +302,15 @@ line-height: normal;
 .restoran_right{
 	align-self: center;
 }
+.dish_p{
+	margin-bottom: 134px;
+	color: #000;
+font-family: Tinos;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.flex_dish_nav{
+	display: flex;
+}
