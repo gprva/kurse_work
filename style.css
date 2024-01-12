@@ -303,7 +303,7 @@ line-height: normal;
 	align-self: center;
 }
 .dish_p{
-	margin-bottom: 134px;
+	margin-bottom: 152px;
 	color: #000;
 font-family: Tinos;
 font-size: 24px;
@@ -313,4 +313,14 @@ line-height: normal;
 }
 .flex_dish_nav{
 	display: flex;
+}
+.h2_tit__dish{
+	margin-bottom: 139px;
+}
+.nav_img{
+	padding: 0 23px;
+margin-bottom: 23px;
+}
+.dish_txt{
+	align-self: center;
 }
