@@ -215,4 +215,9 @@ text-align: center;
 .cards_tits{
 	color: #bc9060;
 }
-.
+.cards_txt{
+	color: #656363;
+text-align: center;
+font-size: 26px;
+font-weight: 400;
+}
