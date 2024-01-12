@@ -31,7 +31,7 @@ label{
 	cursor: pointer;
 }
 input,
-button,
+/* button, */
 textarea{
 	background: none;
 	border: none;
@@ -96,28 +96,6 @@ section{
 .hover:hover{
 	color: #BE963F;
 }
-.btn{
-	background: linear-gradient(93.7deg, #F3C87A -1.69%, #F3EECA 37.58%, #B39556 77.08%, #EED489 109.84%);
-	box-shadow: 0px 4px 0px #836A36;
-	border-radius: 10px;
-	font-weight: 800;
-	font-size: 16px;
-	line-height: 19px;
-	text-align: center;
-	text-transform: uppercase;
-	color: #34280E;
-	height: 85px;
-	display: flex;
-	flex-wrap: wrap;
-	align-items: center;
-	justify-content: center;
-	width: 100%;
-	padding: 14px 0;
-	transition: 0.3s;
-}
-.btn:hover{
-	box-shadow: 0px 6px 5px 2px #836A36;
-}
 .link{
 	transition: 0.3s;
 }
@@ -128,4 +106,38 @@ section{
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
+}
+.btn{
+	/* border: 1px solid #ff7400;
+color: #f3eeee;
+background: #ff7400;
+text-align: center;
+font-size: 14px;
+font-weight: 700;
+line-height: 24px;
+transition: 0.5s;
+padding: 9px 16px;
+cursor: pointer; */
+}
+.btn:hover{
+	box-shadow: 0px 6px 5px 2px #836A36;
+}
+.btn__head{
+
+}
+.head{
+	display: flex;
+	justify-content: space-around;
+}
+.header{
+	/* background: url(img/header.jpg); */
+}
+.head_navs{
+	margin-left: 268px;
+}
+.head_nav{
+	display: flex;
+}
+.head_a{
+	
 }
