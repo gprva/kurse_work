@@ -294,3 +294,11 @@ font-style: normal;
 font-weight: 700;
 line-height: normal;
 }
+.all_restoran{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+.restoran_right{
+	align-self: center;
+}
