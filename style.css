@@ -643,4 +643,25 @@ justify-content: space-around;
 }
 .menu{
 	background: white;
+	width: 312px;
+}
+.menu_img{
+	text-align: center;
+	padding: 14%;
+}
+.menu_tit{
+	color: #000;
+font-size: 26px;
+font-weight: 400;
+margin-bottom: 17px;
+}
+.menu_txt{
+	color: #000;
+text-align: center;
+font-size: 16px;
+margin-bottom: 20px;
+}
+.menu_btn{
+	padding: 11px 72px; 
+	margin-bottom: 45px;
 }
