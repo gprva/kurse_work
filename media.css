@@ -20,6 +20,9 @@
 		width: 100%;
 	margin-bottom: 195px;
 	}
+	ul li:last-child {
+		margin-bottom: 0;
+	  }
 	.menu{
 		margin-bottom: 20px;
 	}
@@ -60,17 +63,24 @@
 		padding: 0;
 		margin-top: -139px;
 	}
+	
 }
 @media screen and (max-width: 540px) {
 	.container{
 		max-width: 420px;
 	}
 	.card{
-		
+
 	}
 }
 @media screen and (max-width: 450px) {
 	.container{
 		max-width: 100%;
+	}
+	.card{
+		margin-top: 0;
+	}
+	.cards .card:first-child{
+		margin-top: 30px;
 	}
 }
