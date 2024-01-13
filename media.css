@@ -34,11 +34,20 @@
 	.btn__head{
 		display: none;
 	}
-	body{
-		background: #743c3c;
-	}
 	.cards .card:last-child{
 		margin-bottom: 0;
+	}
+	.menues{
+		flex-wrap: wrap;
+	}
+	.menu_btn{
+		padding: 9px 16px;
+	}
+	.menu{
+		width: auto;
+	}
+	.dish_big_img{
+		display: none;
 	}
 }
 @media screen and (max-width: 780px) {
@@ -63,7 +72,6 @@
 		padding: 0;
 		margin-top: -139px;
 	}
-	
 }
 @media screen and (max-width: 540px) {
 	.container{
