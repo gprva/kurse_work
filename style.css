@@ -93,14 +93,13 @@ height: 120px;
 padding-left: 0;
 }
 .sec_tit__head {
-  font-size: 80px;
   padding-left: 0;
   font-size: 80px;
 }
 .welcome_p {
   padding: 20px 160px;
   color: white;
-  font-size: 18px;
+  font-size: 17px;
   font-weight: 400;
 }
 .welcom_btn{
@@ -151,7 +150,6 @@ padding-left: 0;
   background: url(img/header.jpg) no-repeat;
 }
 .head_navs {
-  margin-left: 268px;
   padding-top: 23px;
 }
 .head_phon {
@@ -643,7 +641,7 @@ justify-content: space-evenly;
 }
 .menu{
 	background: white;
-	width: 320px;
+	width: 27%;
 }
 .menu_img{
 	text-align: center;
@@ -795,4 +793,11 @@ margin-bottom: 20px;
 	color: rgba(255,255,255,0.7);
 	font-family: 'Montserrat';
 	font-weight: 300;
+  }
+
+  .burger{
+	width: 36px;
+  }
+  .burger_menu{
+	display: none;
   }
