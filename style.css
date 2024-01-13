@@ -799,3 +799,17 @@ margin-bottom: 20px;
   .burger_menu{
 	display: none;
   }
+
+
+  .block{
+	display: block;
+  }
+  .burger_slide{
+	position: absolute;
+	display: none;
+  }
+  #burger{
+	border: none;
+	outline: none;
+	background-color: transparent;
+  }
