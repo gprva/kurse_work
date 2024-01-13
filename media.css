@@ -3,19 +3,70 @@
 		max-width: 960px;
 	}
 }
-@media screen and (max-width: 990px) {
+@media (max-width: 990px) {
 	.container{
 		max-width: 750px;
+	}
+	.cook{
+		flex-wrap: wrap;
+	}
+	.hover-text-one{
+		margin-bottom: 27px;
+	}
+	.cards{
+		flex-wrap: wrap;
+	}
+	.card{
+		width: 100%;
+	margin-bottom: 195px;
+	}
+	.menu{
+		margin-bottom: 20px;
+	}
+	.burger_menu{
+		display: block;
+	}
+	.head_navs
+	.head_phon
+	.btn__head{
+		display: none;
+	}
+	body{
+		background: #743c3c;
+	}
+	.cards .card:last-child{
+		margin-bottom: 0;
 	}
 }
 @media screen and (max-width: 780px) {
 	.container{
 		max-width: 510px;
 	}
+	body{
+		background: #bcae1c;
+	}
+	.cards{
+		/* display: none; */
+		flex-wrap: wrap;
+	}
+	.card{
+		width: 100%;
+		margin-top: 30px;
+	}
+	.welcome_txt {
+		padding: 169px 0px;
+	  }
+	.intro{
+		padding: 0;
+		margin-top: -139px;
+	}
 }
 @media screen and (max-width: 540px) {
 	.container{
 		max-width: 420px;
+	}
+	.card{
+		
 	}
 }
 @media screen and (max-width: 450px) {
