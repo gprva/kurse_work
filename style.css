@@ -639,11 +639,11 @@ padding-top: 57px;
 }
 .menues{
 justify-content: center;
-justify-content: space-around;
+justify-content: space-evenly;
 }
 .menu{
 	background: white;
-	width: 312px;
+	width: 320px;
 }
 .menu_img{
 	text-align: center;
@@ -664,4 +664,9 @@ margin-bottom: 20px;
 .menu_btn{
 	padding: 11px 72px; 
 	margin-bottom: 45px;
+}
+.menu_h2{
+	color: white;
+	text-align: center;
+	margin-bottom: 141px;
 }
