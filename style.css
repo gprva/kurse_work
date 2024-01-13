@@ -635,5 +635,12 @@ padding-top: 57px;
 	text-align: center;
 }
 .our_menu{
-	background: url(img/menu.jpg);
+	background: url(img/menu.jpg) no-repeat;
+}
+.menues{
+justify-content: center;
+justify-content: space-around;
+}
+.menu{
+	background: white;
 }
