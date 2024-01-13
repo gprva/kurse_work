@@ -813,3 +813,28 @@ margin-bottom: 20px;
 	outline: none;
 	background-color: transparent;
   }
+  .disp{
+	display: none;
+  }
+
+  .tittle_h2 {
+	color: var(--neutral-07, #2C2F24);
+	text-align: center;
+	font-size: 100px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 96px;
+	/* 96% */
+	margin-bottom: 20px;
+}
+
+.tittle_p {
+	color: var(--neutral-06, #495460);
+	text-align: center;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 28px;
+	/* 155.556% */
+	margin-bottom: 50px;
+}
