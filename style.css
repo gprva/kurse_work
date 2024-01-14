@@ -929,3 +929,9 @@ margin-bottom: 20px;
 .middle{
 	background: #b9b7b7;
 }
+.img_grey_block{
+	border-radius: 50%;
+}
+.grey{
+	background: #e5e5e5;
+}
