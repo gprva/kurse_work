@@ -681,7 +681,7 @@ margin-bottom: 20px;
   .front-side, .back-side{
 	background-size: cover;
 	background-position: center;
-	min-height: 350px; /* Высота изображения */
+	min-height: 312px; /* Высота изображения */
 	height: auto;
 	border-radius: 50%; /* Скругление углов */
 	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.25);
@@ -844,7 +844,7 @@ margin-bottom: 20px;
 
 }
 
-.menu_btn {
+.page {
 	border-radius: 50px;
 	border: 2px solid #2C2F24;
 	transition: 0.3s;
@@ -858,8 +858,8 @@ margin-bottom: 20px;
 	margin: 0 15px;
 }
 
-.menu_btn:hover {
-	background: #AD343E;
+.page:hover {
+	background: #f66d52;
 	color: #fff;
 }
 
@@ -879,7 +879,7 @@ margin-bottom: 20px;
 }
 
 .menu_card:hover {
-	box-shadow: 0px 0px 18px 0px rgba(85, 83, 83, 0.25);
+	box-shadow:10px 10px 10px  #444343;
 }
 
 .menu_list {
@@ -922,4 +922,10 @@ margin-bottom: 20px;
 }
 .menu_card img{
 	width: 245px;
+}
+.menu_page{
+	background: #b9b7b7;
+}
+.middle{
+	background: #b9b7b7;
 }
