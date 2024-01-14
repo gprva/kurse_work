@@ -7,6 +7,9 @@
 	.container{
 		max-width: 750px;
 	}
+	.front-side, .back-side{
+		min-height: 220px;
+	}
 	.cook{
 		flex-wrap: wrap;
 	}
@@ -49,11 +52,21 @@
 	.dish_big_img{
 		display: none;
 	}
-}
+	.grey_img{
+		margin-left: 40%;
+	}
+	.grey_tit{
+		margin-left: 0;
+	}
+	  }
+
 @media screen and (max-width: 780px) {
 	.container{
 		max-width: 510px;
 	}
+	/* .grey_img{
+		margin-left: 242px;
+	} */
 	body{
 		background: #bcae1c;
 	}
@@ -80,8 +93,8 @@
 	.container{
 		max-width: 420px;
 	}
-	.card{
-
+	.grey_img{
+		/* margin-left: 190px; */
 	}
 }
 @media screen and (max-width: 450px) {
